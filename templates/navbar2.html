@@ -1,0 +1,40 @@
+{% load static %}
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <div class="justify-content-center">
+      <img src="{% static 'cookies.png' %}" class="db_logo" width="50px">
+      <a class="navbar-brand" href="#">DATABASE</a>
+    </div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown" href="#" id="INTRODUCTION" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            INTRODUCTION
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="INTRODUCTION">
+            <li><a class="dropdown-item" href="#">PROFESSOR</a></li>
+            <li><a class="dropdown-item" href="#">MEMBER</a></li>
+            <li><a class="dropdown-item" href="#">ALUMNI</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown" href="#" id="BOARD" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            BOARD
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="BOARD">
+            <li><a class="dropdown-item" href="#">NOTICE</a></li>
+            <li><a class="dropdown-item" href="#">PROJECT</a></li>
+            <li><a class="dropdown-item" href="#">JOURNAL</a></li>
+            <li><a class="dropdown-item" href="#">PATENT</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#" tabindex="-1">GALLERY</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
