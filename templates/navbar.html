@@ -1,0 +1,31 @@
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'reset.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'bootstrap.min.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'navbar.css' %}">
+<nav>
+    <div>
+        <img src="{% static 'cookies.png' %}" class="db_logo">
+        <a href="https://www.google.com/" class="logo_text">DATABASE LAB</a>
+    </div>
+    <div class="menu">
+        <ul>
+            <li><a href="#">INTRODUCTION</a>
+                <ul>
+                    <li><a href="#">PROFESSOR</a></li>
+                    <li><a href="#">MEMBER</a></li>
+                    <li><a href="#">ALUMNI</a></li>
+                </ul>
+            </li>
+            <li><a href="#">BOARD</a>
+                <ul>
+                    <li><a href="#">NOTICE</a></li>
+                    <li><a href="#">PROJECT</a></li>
+                    <li><a href="#">JOURNAL</a></li>
+                    <li><a href="#">PATENT</a></li>
+                </ul>
+            </li>
+            <li><a href="#">GALLERY</a>
+            </li>
+        </ul>
+    </div>
+</nav>
