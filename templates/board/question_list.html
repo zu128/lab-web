@@ -1,8 +1,8 @@
 {% extends 'board\board_base.html' %}
 {% load board_filter %}
 {% block question_list %}
-    <div class="container">
-        <h2>{{ category|board_name}}</h2>
+    <div class="container" style="min-height: 700px;">
+        <h1>{{ category|board_name}}</h1>
         <!-- 게시판 -->
         <table class="table">
             <thead>
